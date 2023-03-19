@@ -1,0 +1,15 @@
+[package]
+name = "texc_v3_compiler_conf"
+version = "0.1.0"
+edition = "2021"
+description = "Provides the `Compiler` type for TexCreate and related projects."
+license = "MIT"
+homepage = "https://texcreate.mkproj.com"
+repository = ""
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.157", features = ["derive"] }
+termcolor = "1.2.0"
+tokio = { version = "1.26.0", features = ["full"] }
+toml = "0.7.3"
